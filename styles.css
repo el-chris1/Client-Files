@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+#carouselId {
+    width: 70%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 450px;
+    object-fit: cover;
+}
+
+.card-body {
+    min-height: 120px;
+    text-align: center;
+}
