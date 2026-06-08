@@ -10,8 +10,9 @@ body {
 
 .card {
     border: none;
+    background-color: #2C5F2E;
+    color: white;
 }
-
 .card-img-top {
     height: 450px;
     object-fit: cover;
@@ -21,9 +22,21 @@ body {
     min-height: 120px;
     text-align: center;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+    flex-wrap: wrap;
     padding: 10px 20px;
+}
+.navbar-home {
+    background-color: #2C5F2E;
+}
+.navbarimg {
+    height: 40px;
+    width: auto;
+}
+.navbar-home .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+.navbar-home .nav-link.active,
+.navbar-home .nav-link:hover {
+    color: #ffffff;
 }
