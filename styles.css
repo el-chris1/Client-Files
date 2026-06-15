@@ -40,3 +40,7 @@ body {
 .navbar-home .nav-link:hover {
     color: #ffffff;
 }
+.navbarimg {
+    height: 75px;
+    width: auto;
+}
