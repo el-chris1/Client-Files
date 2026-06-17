@@ -1,5 +1,18 @@
+:root {
+    --color-barn-red: #8B2500;
+}
+
 body {
     background-color: black;
+    color: var(--color-barn-red);
+}
+
+body a,
+body a:link,
+body a:visited,
+body a:hover,
+body a:active {
+    color: var(--color-barn-red);
 }
 
 #carouselId {
@@ -11,7 +24,7 @@ body {
 .card {
     border: none;
     background-color: #2C5F2E;
-    color: white;
+    color: var(--color-barn-red);
 }
 .card-img-top {
     height: 450px;
@@ -34,13 +47,20 @@ body {
     width: auto;
 }
 .navbar-home .nav-link {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--color-barn-red);
 }
 .navbar-home .nav-link.active,
 .navbar-home .nav-link:hover {
-    color: #ffffff;
+    color: var(--color-barn-red);
 }
 .navbarimg {
     height: 75px;
     width: auto;
+}
+body {
+    background-image: url("Website-Background-Patterns/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
